@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="HTML metadata tags review">
+
+    <meta name="author"
+          content="Fullname1 and Fullname2">
+
+    <title>HTML Review - Metadata</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+    <h1>HTML Metadata</h1>
+    <p>Information about the HTML document</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="text.html">Text</a>
+    <a href="links.html">Links</a>
+    <a href="lists.html">Lists</a>
+    <a href="tables.html">Tables</a>
+    <a href="forms.html">Forms</a>
+    <a href="media.html">Multimedia</a>
+    <a href="semantic.html">Semantic</a>
+    <a href="metadata.html" class="active">Metadata</a>
+</nav>
+
+<main>
+
+<section class="intro">
+
+    <h2>Metadata Tags</h2>
+
+    <p>
+        Metadata provides information about the HTML document.
+        It is mainly placed inside the head element.
+    </p>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;title&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The title element defines the title displayed in the browser tab.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+
+        <tr>
+            <td>None</td>
+            <td>The title element has no specific attributes.</td>
+        </tr>
+
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;title&gt;My Website&lt;/title&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+
+        <p>
+            The text "My Website" appears in the browser tab.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;meta&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The meta element provides metadata about the document.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+
+        <tr>
+            <td>charset</td>
+            <td>Defines the character encoding.</td>
+        </tr>
+
+        <tr>
+            <td>name</td>
+            <td>Defines the type of metadata.</td>
+        </tr>
+
+        <tr>
+            <td>content</td>
+            <td>Provides the metadata value.</td>
+        </tr>
+
+        <tr>
+            <td>http-equiv</td>
+            <td>Provides HTTP header information.</td>
+        </tr>
+
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;meta charset="UTF-8"&gt;
+
+&lt;meta
+    name="description"
+    content="HTML Review Website"&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+
+        <p>
+            Metadata is processed by the browser and is not normally
+            displayed as page content.
+        </p>
+
+    </div>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;link&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The link element defines relationships between the current
+        document and external resources.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+
+        <tr>
+            <td>rel</td>
+            <td>Defines the relationship with the external resource.</td>
+        </tr>
+
+        <tr>
+            <td>href</td>
+            <td>Specifies the resource URL.</td>
+        </tr>
+
+        <tr>
+            <td>media</td>
+            <td>Specifies the media type or condition.</td>
+        </tr>
+
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;link
+    rel="stylesheet"
+    href="css/style.css"&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+
+        <p>
+            This website uses style.css through the link element.
+        </p>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+    <p>HTML Review Website</p>
+    <p>Created by Fullname1 and Fullname2</p>
+</footer>
+
+</body>
+</html>

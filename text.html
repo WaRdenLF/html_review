@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Review - Text</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Text Formatting Tags</h1>
+    <p>HTML tags used to structure and format text</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="text.html" class="active">Text</a>
+    <a href="links.html">Links</a>
+    <a href="lists.html">Lists</a>
+    <a href="tables.html">Tables</a>
+    <a href="forms.html">Forms</a>
+    <a href="media.html">Multimedia</a>
+    <a href="semantic.html">Semantic</a>
+    <a href="metadata.html">Metadata</a>
+</nav>
+
+<main>
+
+<section class="intro">
+    <h2>Text Formatting</h2>
+    <p>
+        HTML provides different tags for headings, paragraphs,
+        bold text, emphasized text and other types of text.
+    </p>
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;h1&gt; - &lt;h6&gt;</h2>
+
+    <h3>Definition</h3>
+    <p>
+        Heading elements define six levels of headings.
+        h1 is the most important and h6 is the least important.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>id</td>
+            <td>Gives the heading a unique identifier.</td>
+        </tr>
+        <tr>
+            <td>class</td>
+            <td>Associates the heading with a CSS class.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;h1&gt;Main Heading&lt;/h1&gt;
+&lt;h2&gt;Subheading&lt;/h2&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+        <h1>Main Heading</h1>
+        <h2>Subheading</h2>
+    </div>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;p&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The p element defines a paragraph.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>id</td>
+            <td>Identifies the paragraph.</td>
+        </tr>
+        <tr>
+            <td>class</td>
+            <td>Applies a CSS class.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+        <p>This is a paragraph.</p>
+    </div>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;strong&gt; and &lt;em&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        strong indicates strong importance.
+        em indicates emphasis.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>Global attributes</td>
+            <td>These elements support global HTML attributes.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;strong&gt;Important text&lt;/strong&gt;
+&lt;em&gt;Emphasized text&lt;/em&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+        <p>
+            <strong>Important text</strong>
+        </p>
+
+        <p>
+            <em>Emphasized text</em>
+        </p>
+    </div>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;br&gt; and &lt;hr&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        br creates a line break. hr represents a thematic break.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>Global attributes</td>
+            <td>These elements can use global attributes.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;p&gt;First line&lt;br&gt;Second line&lt;/p&gt;
+&lt;hr&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+        <p>
+            First line<br>
+            Second line
+        </p>
+
+        <hr>
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+    <p>HTML Review Website</p>
+    <p>Created by Fullname1 and Fullname2</p>
+</footer>
+
+</body>
+</html>

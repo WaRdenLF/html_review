@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Review - Links and Images</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Links and Images</h1>
+    <p>HTML hyperlinks and image tags</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="text.html">Text</a>
+    <a href="links.html" class="active">Links</a>
+    <a href="lists.html">Lists</a>
+    <a href="tables.html">Tables</a>
+    <a href="forms.html">Forms</a>
+    <a href="media.html">Multimedia</a>
+    <a href="semantic.html">Semantic</a>
+    <a href="metadata.html">Metadata</a>
+</nav>
+
+<main>
+
+<section class="intro">
+    <h2>Links and Images</h2>
+    <p>
+        HTML provides the a element for hyperlinks and the img element
+        for displaying images.
+    </p>
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;a&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The a element creates a hyperlink to another page, file,
+        email address or location.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>href</td>
+            <td>Specifies the destination.</td>
+        </tr>
+        <tr>
+            <td>target</td>
+            <td>Specifies where to open the link.</td>
+        </tr>
+        <tr>
+            <td>title</td>
+            <td>Provides additional information.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;a href="https://www.example.com" target="_blank"&gt;
+Visit Example
+&lt;/a&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+        <a href="https://www.example.com" target="_blank">
+            Visit Example
+        </a>
+    </div>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;img&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The img element embeds an image into a webpage.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>src</td>
+            <td>Specifies the image location.</td>
+        </tr>
+        <tr>
+            <td>alt</td>
+            <td>Provides alternative text for the image.</td>
+        </tr>
+        <tr>
+            <td>width</td>
+            <td>Defines image width.</td>
+        </tr>
+        <tr>
+            <td>height</td>
+            <td>Defines image height.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;img src="images/image.jpg"
+     alt="Example image"&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+        <img
+            src="images/image.jpg"
+            alt="Example image"
+            class="example-image">
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+    <p>HTML Review Website</p>
+    <p>Created by Fullname1 and Fullname2</p>
+</footer>
+
+</body>
+</html>

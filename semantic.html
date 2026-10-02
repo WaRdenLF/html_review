@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Review - Semantic</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Semantic HTML</h1>
+    <p>Semantic elements and page layout</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="text.html">Text</a>
+    <a href="links.html">Links</a>
+    <a href="lists.html">Lists</a>
+    <a href="tables.html">Tables</a>
+    <a href="forms.html">Forms</a>
+    <a href="media.html">Multimedia</a>
+    <a href="semantic.html" class="active">Semantic</a>
+    <a href="metadata.html">Metadata</a>
+</nav>
+
+<main>
+
+<section class="intro">
+
+    <h2>Semantic Elements</h2>
+
+    <p>
+        Semantic HTML elements describe the meaning and structure
+        of the content.
+    </p>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;header&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The header element represents introductory content,
+        usually containing a heading or navigation.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>class</td>
+            <td>Applies a CSS class.</td>
+        </tr>
+        <tr>
+            <td>id</td>
+            <td>Provides a unique identifier.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;header&gt;
+    &lt;h1&gt;My Website&lt;/h1&gt;
+    &lt;p&gt;Welcome!&lt;/p&gt;
+&lt;/header&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+        <h2>My Website</h2>
+        <p>Welcome!</p>
+    </div>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;nav&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The nav element represents a section containing navigation links.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>class</td>
+            <td>Defines a CSS class.</td>
+        </tr>
+        <tr>
+            <td>aria-label</td>
+            <td>Provides an accessible name for navigation.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;nav&gt;
+    &lt;a href="index.html"&gt;Home&lt;/a&gt;
+    &lt;a href="about.html"&gt;About&lt;/a&gt;
+&lt;/nav&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+        <a href="index.html">Home</a> |
+        <a href="text.html">Text</a>
+    </div>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;main&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The main element contains the main content of a document.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>id</td>
+            <td>Identifies the main section.</td>
+        </tr>
+        <tr>
+            <td>class</td>
+            <td>Associates CSS styles.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;main&gt;
+    &lt;h1&gt;Main Content&lt;/h1&gt;
+    &lt;p&gt;This is the main content.&lt;/p&gt;
+&lt;/main&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+        <h2>Main Content</h2>
+        <p>This is the main content.</p>
+    </div>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;section&gt; and &lt;article&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        section represents a thematic section of content.
+        article represents an independent piece of content.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>id</td>
+            <td>Identifies the section or article.</td>
+        </tr>
+        <tr>
+            <td>class</td>
+            <td>Applies CSS styling.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;section&gt;
+    &lt;h2&gt;News&lt;/h2&gt;
+
+    &lt;article&gt;
+        &lt;h3&gt;HTML News&lt;/h3&gt;
+        &lt;p&gt;HTML is used to structure websites.&lt;/p&gt;
+    &lt;/article&gt;
+&lt;/section&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+
+        <h2>News</h2>
+
+        <article>
+            <h3>HTML News</h3>
+            <p>HTML is used to structure websites.</p>
+        </article>
+
+    </div>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;footer&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The footer element represents the footer of a page or section.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>class</td>
+            <td>Applies CSS styling.</td>
+        </tr>
+        <tr>
+            <td>id</td>
+            <td>Provides a unique identifier.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;footer&gt;
+    &lt;p&gt;Copyright 2026&lt;/p&gt;
+&lt;/footer&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+        <p>Copyright 2026</p>
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+    <p>HTML Review Website</p>
+    <p>Created by Fullname1 and Fullname2</p>
+</footer>
+
+</body>
+</html>

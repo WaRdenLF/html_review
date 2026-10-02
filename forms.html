@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Review - Forms</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>HTML Forms</h1>
+    <p>Forms and user input elements</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="text.html">Text</a>
+    <a href="links.html">Links</a>
+    <a href="lists.html">Lists</a>
+    <a href="tables.html">Tables</a>
+    <a href="forms.html" class="active">Forms</a>
+    <a href="media.html">Multimedia</a>
+    <a href="semantic.html">Semantic</a>
+    <a href="metadata.html">Metadata</a>
+</nav>
+
+<main>
+
+<section class="intro">
+    <h2>Forms</h2>
+
+    <p>
+        HTML forms allow users to enter and submit information.
+    </p>
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;form&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The form element contains controls used to collect user input.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>action</td>
+            <td>Defines where form data is sent.</td>
+        </tr>
+        <tr>
+            <td>method</td>
+            <td>Defines the HTTP method used to send data.</td>
+        </tr>
+        <tr>
+            <td>target</td>
+            <td>Defines where the response is displayed.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;form action="/submit" method="post"&gt;
+    ...
+&lt;/form&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+
+        <form action="#" method="post">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;input&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The input element creates an interactive field for user input.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>type</td>
+            <td>Defines the type of input.</td>
+        </tr>
+        <tr>
+            <td>name</td>
+            <td>Defines the name of the field.</td>
+        </tr>
+        <tr>
+            <td>placeholder</td>
+            <td>Shows temporary text inside the input.</td>
+        </tr>
+        <tr>
+            <td>required</td>
+            <td>Requires the user to enter a value.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;input
+    type="text"
+    name="username"
+    placeholder="Enter your name"
+    required&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+
+        <input
+            type="text"
+            name="username"
+            placeholder="Enter your name"
+            required>
+
+    </div>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;label&gt; and &lt;textarea&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        label describes a form control.
+        textarea creates a multi-line text field.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>for</td>
+            <td>Connects a label to an input element.</td>
+        </tr>
+        <tr>
+            <td>rows</td>
+            <td>Defines the visible number of rows.</td>
+        </tr>
+        <tr>
+            <td>cols</td>
+            <td>Defines the visible number of columns.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;label for="message"&gt;Message:&lt;/label&gt;
+
+&lt;textarea
+    id="message"
+    rows="5"
+    cols="30"&gt;
+&lt;/textarea&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+
+        <label for="message">Message:</label>
+
+        <textarea
+            id="message"
+            rows="5"
+            placeholder="Write your message here"></textarea>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+    <p>HTML Review Website</p>
+    <p>Created by Fullname1 and Fullname2</p>
+</footer>
+
+</body>
+</html>

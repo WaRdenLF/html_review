@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Review - Tables</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>HTML Tables</h1>
+    <p>Organizing information in rows and columns</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="text.html">Text</a>
+    <a href="links.html">Links</a>
+    <a href="lists.html">Lists</a>
+    <a href="tables.html" class="active">Tables</a>
+    <a href="forms.html">Forms</a>
+    <a href="media.html">Multimedia</a>
+    <a href="semantic.html">Semantic</a>
+    <a href="metadata.html">Metadata</a>
+</nav>
+
+<main>
+
+<section class="intro">
+    <h2>Tables</h2>
+    <p>
+        Tables are used to organize information into rows and columns.
+    </p>
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;table&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The table element creates a table.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>class</td>
+            <td>Defines a CSS class.</td>
+        </tr>
+        <tr>
+            <td>id</td>
+            <td>Defines a unique identifier.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Name&lt;/th&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Ali&lt;/td&gt;
+        &lt;td&gt;18&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+
+            <tr>
+                <td>Ali</td>
+                <td>18</td>
+            </tr>
+
+            <tr>
+                <td>Sarah</td>
+                <td>19</td>
+            </tr>
+        </table>
+
+    </div>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;tr&gt;, &lt;th&gt; and &lt;td&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        tr creates a table row, th creates a header cell,
+        and td creates a normal data cell.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>colspan</td>
+            <td>Makes a cell span multiple columns.</td>
+        </tr>
+        <tr>
+            <td>rowspan</td>
+            <td>Makes a cell span multiple rows.</td>
+        </tr>
+        <tr>
+            <td>scope</td>
+            <td>Defines the cells a header relates to.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;tr&gt;
+    &lt;th&gt;Student&lt;/th&gt;
+    &lt;th&gt;Grade&lt;/th&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+    &lt;td&gt;John&lt;/td&gt;
+    &lt;td&gt;A&lt;/td&gt;
+&lt;/tr&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+
+        <table>
+            <tr>
+                <th>Student</th>
+                <th>Grade</th>
+            </tr>
+
+            <tr>
+                <td>John</td>
+                <td>A</td>
+            </tr>
+        </table>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+    <p>HTML Review Website</p>
+    <p>Created by Fullname1 and Fullname2</p>
+</footer>
+
+</body>
+</html>

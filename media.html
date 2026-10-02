@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Review - Multimedia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>HTML Multimedia</h1>
+    <p>Audio, video and embedded content</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="text.html">Text</a>
+    <a href="links.html">Links</a>
+    <a href="lists.html">Lists</a>
+    <a href="tables.html">Tables</a>
+    <a href="forms.html">Forms</a>
+    <a href="media.html" class="active">Multimedia</a>
+    <a href="semantic.html">Semantic</a>
+    <a href="metadata.html">Metadata</a>
+</nav>
+
+<main>
+
+<section class="intro">
+    <h2>Multimedia Tags</h2>
+    <p>
+        HTML can display audio, video and external content.
+    </p>
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;audio&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The audio element embeds sound content into a webpage.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>controls</td>
+            <td>Displays audio controls.</td>
+        </tr>
+        <tr>
+            <td>autoplay</td>
+            <td>Starts playback automatically.</td>
+        </tr>
+        <tr>
+            <td>loop</td>
+            <td>Repeats the audio.</td>
+        </tr>
+        <tr>
+            <td>muted</td>
+            <td>Starts the audio muted.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;audio controls&gt;
+    &lt;source src="images/audio.mp3" type="audio/mpeg"&gt;
+&lt;/audio&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+
+        <audio controls>
+            <source src="images/audio.mp3" type="audio/mpeg">
+            Your browser does not support audio.
+        </audio>
+
+    </div>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;video&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The video element embeds video content into a webpage.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>controls</td>
+            <td>Displays video controls.</td>
+        </tr>
+        <tr>
+            <td>width</td>
+            <td>Defines video width.</td>
+        </tr>
+        <tr>
+            <td>height</td>
+            <td>Defines video height.</td>
+        </tr>
+        <tr>
+            <td>poster</td>
+            <td>Defines an image shown before playback.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;video controls width="500"&gt;
+    &lt;source src="images/video.mp4" type="video/mp4"&gt;
+&lt;/video&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+
+        <video controls width="500" style="max-width: 100%;">
+            <source src="images/video.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+
+    </div>
+
+</section>
+
+<section class="tag-card">
+
+    <h2>&lt;iframe&gt;</h2>
+
+    <h3>Definition</h3>
+
+    <p>
+        The iframe element embeds another HTML page or external content.
+    </p>
+
+    <h3>Attributes</h3>
+
+    <table>
+        <tr>
+            <th>Attribute</th>
+            <th>Role</th>
+        </tr>
+        <tr>
+            <td>src</td>
+            <td>Defines the URL of the embedded page.</td>
+        </tr>
+        <tr>
+            <td>width</td>
+            <td>Defines the width.</td>
+        </tr>
+        <tr>
+            <td>height</td>
+            <td>Defines the height.</td>
+        </tr>
+            <tr>
+            <td>title</td>
+            <td>Provides an accessible title.</td>
+        </tr>
+    </table>
+
+    <h3>Example - Code</h3>
+
+    <pre><code>&lt;iframe
+    src="https://example.com"
+    width="500"
+    height="300"
+    title="Example"&gt;
+&lt;/iframe&gt;</code></pre>
+
+    <h3>Example - Result</h3>
+
+    <div class="result">
+
+        <iframe
+            src="https://example.com"
+            width="500"
+            height="300"
+            title="Example website">
+        </iframe>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+    <p>HTML Review Website</p>
+    <p>Created by Fullname1 and Fullname2</p>
+</footer>
+
+</body>
+</html>
